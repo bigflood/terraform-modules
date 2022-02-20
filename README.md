@@ -48,6 +48,8 @@ module "this" {
 
 to run generated script, you need to enable MFA of IAM user(ex: infra-dev)
 
+https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_enable_virtual.html
+
 ### Usage
 
 ```bash
