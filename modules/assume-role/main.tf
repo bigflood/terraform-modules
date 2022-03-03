@@ -36,6 +36,7 @@ module "iam_assumable_role" {
   attach_readonly_policy  = true
   attach_poweruser_policy = true
   role_requires_mfa       = true
+  max_session_duration    = var.max_session_duration
 
   custom_role_policy_arns = module.iam_assumable_role_policy.*.id
 

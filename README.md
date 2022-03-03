@@ -93,4 +93,5 @@ $ aws sts get-caller-identity
 | name | Desired name for the IAM user | `string` | n/a | yes |
 | additional_role_policy_document | additional policy document for assumable role | `string` | `""` | no |
 | script_filename | assume role script filename | `string` | `""` | no |
+| max_session_duration | Maximum CLI/API session duration in seconds between 3600 and 43200 | `number` | 3600 | no |
 | tags | A map of tags to add to all resources. | `map(string)` | `{}` | no |
